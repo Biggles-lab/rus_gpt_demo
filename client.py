@@ -12,7 +12,7 @@ PROTOCOL = 'http'
 BASE_URL = f"{PROTOCOL}://{HOST}:{PORT}/v1/"
 
 client = openai.OpenAI(
-    api_key=os.getenv('API_KEY'),
+    api_key=sk-vd0J4NBw1h0OOCTkbEnHw1lXaY2yqoiteWBOVT6UubafqY0U,
     base_url=BASE_URL,
 )
 
